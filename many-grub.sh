@@ -142,6 +142,11 @@ detect_theme_dir() {
 }
 
 # --- Commands ---
+
+cmd_help() {
+    print_help
+}
+
 cmd_current() {
     grep "^#\?GRUB_THEME=" "$GRUB_CONFIG" | cut -d'"' -f2
 }
