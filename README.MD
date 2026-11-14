@@ -19,7 +19,7 @@ It supports:
 Clone the repository and run the script:
 
 ```bash
-git clone https://github.com/<your-user>/many-grub
+git clone https://github.com/ctlinker/many-grub
 cd many-grub
 chmod +x many-grub.sh
 ```
